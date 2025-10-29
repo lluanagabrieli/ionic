@@ -1,0 +1,76 @@
+<ion-header [translucent]="true"  class="animacao">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button ></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>FEPI - Centro Universitário de Itajubá</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"  class="animacao">
+  <ion-card>
+    <ion-card-header>
+      <swiper-container
+        slides-per-view="1"
+        loop="true"
+        autoplay='{"delay": 2500, "disableOnInteraction": false}'
+        pagination='{"clickable": true}'
+        keyboard='{"enabled": true}'>
+        <swiper-slide>
+          <img src="https://fepi.br/wp-content/uploads/2022/03/IMG_6049.jpg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="https://conexaoitajuba.com.br/conexaoitajuba/wp-content/uploads/2021/04/fepi-1024x574.jpg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="https://i.ytimg.com/vi/RRmP1dT-59s/maxresdefault.jpg" alt="">
+        </swiper-slide>
+      </swiper-container>
+    </ion-card-header>
+
+    <ion-card-content class="ion-text-justify">
+      A FEPI – Fundação de Ensino e Pesquisa de Itajubá foi criada por meio da Lei Estadual 3.009, de 17 de dezembro de 1.963, instituída com personalidade jurídica de direito privado e sem fins lucrativos, pelo Decreto Estadual nº 9.016, de 22 de novembro de 1965, como resultado de uma estratégia governamental para interiorizar o ensino superior.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="location-outline" slot="start"></ion-icon>
+      <ion-label>Endereço</ion-label>
+      <ion-button target="_blank" href="https://www.google.com/maps/dir/-22.4329728,-45.4590464/Centro+Universit%C3%A1rio+de+Itajub%C3%A1+-+FEPI+-+Av.+Dr.+Ant%C3%B4nio+Braga+Filho,+687+-+Porto+Velho,+Itajub%C3%A1+-+MG,+37501-002/@-22.4300534,-45.4626094,4239m/data=!3m2!1e3!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94cb634cd06af6f3:0x2e489fa3541b307f!2m2!1d-45.4483352!2d-22.429272?entry=ttu&g_ep=EgoyMDI1MTAyNy4wIKXMDSoASAFQAw%3D%3D">Ver no mapa</ion-button>
+    </ion-item>
+
+    <ion-card-content>
+      Av. Dr. Antônio Braga Filho, 687 - Porto Velho, Itajubá - MG, 37501-002
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="time-outline" slot="start"></ion-icon>
+      <ion-label>Horário de Funcionamento</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      De segunda a sexta, das 08h às 21h e aos sábados das 08h às 13h
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="barbell-outline" slot="start"></ion-icon>
+      <ion-label>Academia</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="paw-outline" slot="start"></ion-icon>
+      <ion-label>Centro Veterinário</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="eyedrop-outline" slot="start"></ion-icon>
+      <ion-label>Laboratórios</ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,14 @@
+swiper-container {
+  width: 100%;
+  // height: 100%;
+  --swiper-pagination-color: #3880ff;
+}
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  // background: rgb(182, 81, 196);
+  border-radius: 8px;
+}
